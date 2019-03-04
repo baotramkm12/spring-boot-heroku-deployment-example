@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title> Anh đẹp gái </title>
+<title> Anh Huynh </title>
   <link href="/css/main.css" rel="stylesheet">
   <link href="/css/flower.css" rel="stylesheet">
   <script src="/js/flower.js"></script>
@@ -15,16 +15,16 @@
   <input type="checkbox" id="ck2"/>
   <label for="ck2">Love</label>
   <input type="checkbox" id="ck3"/>
-  <label for="ck3">Tân</label>
+  <label for="ck3">Tan</label>
 </div>
 <canvas id="monCanvas"></canvas>
 <script>
-  var person = prompt("Nhập họ tên của bạn không bỏ dấu", "Họ tên của bạn");
+  var person = prompt("Nhap ho ten cua ban khong bo dau", "Ho ten cua ban");
 
   if (person != null && person.toLocaleLowerCase() === "ma vinh tan") {
-      alert('click vào mấy chữ trên màn hình');
+      alert('Nho click vao may chu tren man hinh');
   }else{
-    document.querySelector(".wrapper").innerHTML="<h1>Bạn không phải là chồng tương lai của bảo anh. Rất tiếc cho bạn</h1>";
+    document.querySelector(".wrapper").innerHTML="<h1>Ban khong phai la chong tuong lai cua bao anh. Rat tiec cho ban</h1>";
   }
 </script>
 </body>
