@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="vn">
 <head>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-<title> Anh đập gái </title>
+   <meta charshet="utf-8" />
+<title> Love </title>
   <link href="/css/main.css" rel="stylesheet">
   <link href="/css/flower.css" rel="stylesheet">
   <script src="/js/flower.js"></script>
@@ -15,9 +15,17 @@
   <input type="checkbox" id="ck2"/>
   <label for="ck2">Love</label>
   <input type="checkbox" id="ck3"/>
-  <label for="ck3">Tan</label>
+  <label for="ck3">Tân</label>
 </div>
 <canvas id="monCanvas"></canvas>
-<script>alert('Please click on the words view on screen');</script>
+<script>
+  var person = prompt("Nhập họ tên của bạn không bỏ dấu", "Họ tên của bạn");
+
+  if (person != null && person.toLocaleLowerCase() === "ma vinh tan") {
+      alert('click vào mấy chữ trên màn hình');
+  }else{
+    document.write("Bạn không phải là chồng tương lai của bảo anh. Rất tiếc cho bạn");
+  }
+</script>
 </body>
 </html>
