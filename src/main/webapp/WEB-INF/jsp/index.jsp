@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="vn">
+<html lang="en">
 <head>
-   <meta charshet="utf-8" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <title> Love </title>
   <link href="/css/main.css" rel="stylesheet">
   <link href="/css/flower.css" rel="stylesheet">
@@ -24,7 +24,7 @@
   if (person != null && person.toLocaleLowerCase() === "ma vinh tan") {
       alert('click vào mấy chữ trên màn hình');
   }else{
-    document.write("Bạn không phải là chồng tương lai của bảo anh. Rất tiếc cho bạn");
+    document.querySelector(".wrapper").innerHTML="<h1>Bạn không phải là chồng tương lai của bảo anh. Rất tiếc cho bạn</h1>";
   }
 </script>
 </body>
